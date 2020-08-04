@@ -50,7 +50,7 @@ cc_prebuilt_library_shared {
 	prefer: true,
 	soc_specific: true,
 }
-
+/*
 android_app_import {
 	name: "FingerprintExtensionService",
 	owner: "xiaomi",
@@ -61,4 +61,4 @@ android_app_import {
 	},
 	soc_specific: true,
 }
-
+*/
