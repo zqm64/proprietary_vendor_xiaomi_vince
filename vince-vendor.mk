@@ -17,6 +17,8 @@
 PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/vince
 
+$(call inherit-product, vendor/xiaomi/vince/vince-vendor-vndk.mk)
+
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/vince/proprietary/vendor/firmware/goodix_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_firmware.bin \
     vendor/xiaomi/vince/proprietary/vendor/firmware/tas2557_uCDSP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tas2557_uCDSP.bin \
